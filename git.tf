@@ -9,7 +9,7 @@ terraform {
 
 # Configure the GitHub Provider
 provider "github" {
-  token = "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"
+  token = var.git_token
 }
 
 
